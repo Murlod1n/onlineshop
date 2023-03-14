@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LogInFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logInBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_button_rounded"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/log_in_title"
+        android:textAllCaps="false"
+        android:textColor="@color/button_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPasswordLogInContainer"
+        app:layout_constraintStart_toStartOf="@+id/editTextPasswordLogInContainer"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordLogInContainer" />
+
+    <TextView
+        android:id="@+id/logInLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="@string/welcome_back"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextFirstNameLogInContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="42dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintEnabled="false"
+        app:helperTextTextColor="?attr/colorError"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logInLabel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/custom_edit_text_rounded"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center_horizontal"
+            android:hint="@string/first_name_filed_hint"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:padding="7dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_field_title_color"
+            android:textSize="11sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextPasswordLogInContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="42dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/icon_color"
+        app:hintEnabled="false"
+
+        app:helperTextTextColor="?attr/colorError"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFirstNameLogInContainer">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:paddingStart="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/custom_edit_text_rounded"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center_horizontal"
+            android:hint="@string/password_field_hint"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:padding="7dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_field_title_color"
+            android:textSize="11sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

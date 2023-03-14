@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">onlineshop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price_format">$%s</string>
+    <string name="price_btn_format">#%s</string>
+    <string name="discount_format">%s%% off</string>
+    <string name="burger_menu_desc">button for open navigation menu</string>
+    <string name="toolbar_titlle">Trade by bata</string>
+    <string name="locate_chooser">locate chooser</string>
+    <string name="location">Location</string>
+    <string name="log_in_title">Log in</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="first_name_filed_hint">First name</string>
+    <string name="password_field_hint">Password</string>
+    <string name="search_field_hint">What are you looking for ?</string>
+    <string name="upload_item">Upload item</string>
+    <string name="change_photo">Change photo</string>
+    <string name="satria_adhi_pradana">Satria Adhi Pradana</string>
+    <string name="icon">icon</string>
+    <string name="trade_store">Trade store</string>
+    <string name="payment_method">Payment method</string>
+    <string name="balance">Balance</string>
+    <string name="balance_count">$ 1593</string>
+    <string name="trade_history">Trade history</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log out</string>
+    <string name="profile">Profile</string>
+    <string name="color">Color:</string>
+    <string name="one">1</string>
+    <string name="quantity">Quantity:</string>
+    <string name="plus">+</string>
+    <string name="minus">—</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="sign_in">Sign in</string>
+    <string name="first_name_field_hint">First name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="last_name_field_hint">Last name</string>
+    <string name="email_field_hint">Email</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_apple">Sign in with Apple</string>
+    <string name="view_all">View all</string>
+    <string name="image">image</string>
+</resources>
