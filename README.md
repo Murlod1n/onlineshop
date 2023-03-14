@@ -1,7 +1,5 @@
 # Online Shop Application
 
----
-
 ### Technologies used
 
 * Hilt
